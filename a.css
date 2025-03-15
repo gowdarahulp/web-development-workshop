@@ -1,0 +1,38 @@
+h1{
+    color: red; 
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+ }
+ body{
+     /* background-image:hallikar1;
+     background-position: center;
+     background: size 1px;
+     background-repeat: no-repeat;
+     background-attachment: fixed; */
+     background-color: aquamarine;
+ }
+ img{
+     width:200px;
+     height:200px;
+ }
+ img.a:hover{
+    
+     filter:blur(9px);
+ }
+ img.w:hover{
+  
+    filter:grayscale(100);
+ }
+ 
+ img.x:hover{
+   
+    filter:blur(5px) ;
+ }
+ img.y:hover{
+    
+    filter: saturate(7);
+ }
+ body{
+    background-color: black;
+ }
